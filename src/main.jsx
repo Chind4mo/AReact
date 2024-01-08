@@ -4,17 +4,19 @@ import App from './App.jsx'
 
 // Import the functions you need from the SDKs you need
 import { initializeApp } from "firebase/app";
+
 // TODO: Add SDKs for Firebase products that you want to use
 // https://firebase.google.com/docs/web/setup#available-libraries
 
 // Your web app's Firebase configuration
 const firebaseConfig = {
-  apiKey: "AIzaSyBGvkykeaRoovpqbZsJdFV5vIH2LyLsbgY",
-  authDomain: "bolucompras-e-commerce.firebaseapp.com",
-  projectId: "bolucompras-e-commerce",
-  storageBucket: "bolucompras-e-commerce.appspot.com",
-  messagingSenderId: "490425442086",
-  appId: "1:490425442086:web:ce8ae60c98c4491dfd2be7"
+  apiKey: "AIzaSyAqhOcV5Xn_8P9msX0yNK9rBgj6jx78cK8",
+  authDomain: "react1-c2a84.firebaseapp.com",
+  projectId: "react1-c2a84",
+  storageBucket: "react1-c2a84.appspot.com",
+  messagingSenderId: "1020430904705",
+  appId: "1:1020430904705:web:dd468896f060266b508c80",
+  measurementId: "G-VT6KPDQ5RF"
 };
 
 // Initialize Firebase
