@@ -70,7 +70,7 @@ const ItemListContainer = ({ showAllItems }) => {
             <div className='cardContenedor'>
                 {data.map((producto) => (
                     <Card key={producto.id} style={{ width: '18rem' }}>
-                        <Card.Img className='cardImage' variant="top" src={producto.imagen} alt='imagen de producto' />
+                        <Card.Img className='cardImage' variant="top" src={producto.imgUrl} alt='imagen de producto' />
                         <Card.Body>
                             <Card.Title>{producto.nombre}</Card.Title>
                             <Card.Text>${producto.precio}</Card.Text>

@@ -16,7 +16,7 @@ const Logo = () => {
                             height="30"
                             className="d-inline-block align-top"
                         />
-                        Bolucompras
+                        Boomerang
                     </Navbar.Brand>
                 </Container>
             </NavLink>

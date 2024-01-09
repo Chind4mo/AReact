@@ -13,9 +13,9 @@ const NavBar = () => {
                 <Logo />
                 <div>
                     <ul className="categorias">
-                        <li><NavLink to="categoria/Cocina">Cocina</NavLink></li>
-                        <li><NavLink to="categoria/Deco">Deco</NavLink></li>
-                        <li><NavLink to="categoria/Baño">Baño</NavLink></li>
+                        <li><NavLink to="categoria/Caros">Caros</NavLink></li>
+                        <li><NavLink to="categoria/Baratos">Baratos</NavLink></li>
+                        <li><NavLink to="categoria/Intermedios">Intermedios</NavLink></li>
                     </ul>
                 </div>
                 <Navbar.Toggle aria-controls="basic-navbar-nav" />
