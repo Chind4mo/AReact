@@ -91,7 +91,7 @@ const ItemDetail = () => {
             <Card className="text-center cardDetail">
                 <Card.Header>{categoria}</Card.Header>
                 <Card.Body>
-                    <Card.Img className="imagenDetail" variant="top" src={imagen} alt='foto producto' />
+                    <Card.Img className="imagenDetail" variant="top" src={producto.imgUrl} alt='foto producto' />
                     <Card.Title>{nombre}</Card.Title>
                     <Card.Text>{descripcion}</Card.Text>
                     <ItemCount stock={stock} initial={quantityInCart} onAdd={handleAddToCart} productId={id} />

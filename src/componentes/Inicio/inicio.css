@@ -17,7 +17,12 @@
     font-size: 50px;
 }
 
+.inicio p {
+    text-align: center;
+}
+
 .productos {
     background-color: gray;
     text-align: center;
+    
 }

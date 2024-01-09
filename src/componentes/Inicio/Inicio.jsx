@@ -6,10 +6,13 @@ const Inicio = () => {
         <>
             <div className='inicio'>
                 <h1>Bienvenidos</h1>
-                <p>¡Boomerang es el Bazar en línea de tus sueños! Descubre tesoros únicos y maravillosos, desde artículos artesanales hasta gadgets sorprendentes. ¡Explora, compra y haz que cada experiencia sea memorable!</p>
+                <p>¡Boomerang es la pagina ideal para poder conseguir la tecnologia que estas buscando, 
+                    aca tendremos todos los productos en stock a tu disposicion!!,
+                    cualquier consulta nos podes comunicar con el siguiente mail: chind4mo@gmail.com
+                </p>
             </div>
             <div className='productos'>
-                <h1>Productos</h1>
+                <h1>Nuestros Productos</h1>
                 <ItemListContainer showAllItems={true} />
             </div>
         </>
